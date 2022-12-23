@@ -1,10 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
     return (
         <nav>
             <div>
-                <p>logo</p>
+                <Image src='/images/pokeball.png' width='50' height='50' alt="Pokebola" />
                 <h1>PokéNext</h1>
             </div>
             <ul>
