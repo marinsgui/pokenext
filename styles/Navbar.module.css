@@ -38,3 +38,10 @@
 .link_items li a:hover {
     border-color: #fff;
 }
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        flex-direction: column;
+        gap: 1em;
+    }
+}
